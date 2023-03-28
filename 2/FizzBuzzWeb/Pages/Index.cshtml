@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <div class="row text-left">
+        <form method="post" class="col-6 offset-3">
+            @if (!ModelState.IsValid)
+            {
+                <div class="form-group pt-1">
+                    <span asp-validation-for="FizzBuzzForm.Number" class="form-control alert-danger "></span>
+                </div>
+            }
+            <div class="form-group pt-1">
+                <input asp-for="FizzBuzzForm.Number" class="form-control" type="text" placeholder="Podaj liczbę" />
+            </div>
+            <div class="form-group pt-1 align-items-start d-flex justify-content-between">
+                <input type="submit" class="btn btn-primary " value="Wyslij" />
+            </div>
+
+            @if (Model.FizzBuzzForm != null && ModelState.IsValid)
+            {
+                <div class="form-group pt-1">
+                    <span class="form-control alert-success">@Html.DisplayFor(model => model.Message)</span>
+                </div>
+            }
+            </>
+        </form>
+    </div>
+</div>
