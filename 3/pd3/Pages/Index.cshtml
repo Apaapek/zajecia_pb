@@ -1,0 +1,26 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Strona główna";
+}
+
+<div class="text-left">
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Osoba.Year"></label>
+            <input asp-for="Osoba.Year" class="form-control"/>
+            <b><span asp-validation-for="Osoba.Year" class="text-danger"></span></b>
+        </div>
+        <div class="form-group">
+            <label asp-for="Osoba.Name"></label>
+            <input asp-for="Osoba.Name" class="form-control"/>
+            <b><span asp-validation-for="Osoba.Name" class="text-danger"></span></b>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Zatwierdź</button>
+        </div>
+        <div class="form-group">
+            @Model.Osoba?.Result
+        </div>
+    </form>
+</div>

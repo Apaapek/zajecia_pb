@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Borygo\\Desktop\\Nowy folder\\FizzBuzzWeb\\FizzBuzzWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Borygo\\Desktop\\pb\\sem4\\.net\\2\\FizzBuzzWeb\\FizzBuzzWeb.csproj",
       "projectName": "FizzBuzzWeb",
-      "projectPath": "C:\\Users\\Borygo\\Desktop\\Nowy folder\\FizzBuzzWeb\\FizzBuzzWeb.csproj",
+      "projectPath": "C:\\Users\\Borygo\\Desktop\\pb\\sem4\\.net\\2\\FizzBuzzWeb\\FizzBuzzWeb.csproj",
       "packagesPath": "C:\\Users\\Borygo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Borygo\\Desktop\\Nowy folder\\FizzBuzzWeb\\obj\\",
+      "outputPath": "C:\\Users\\Borygo\\Desktop\\pb\\sem4\\.net\\2\\FizzBuzzWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
