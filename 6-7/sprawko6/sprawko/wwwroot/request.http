@@ -1,0 +1,2 @@
+DELETE https://localhost:2137/History/7
+content-type: application/json
